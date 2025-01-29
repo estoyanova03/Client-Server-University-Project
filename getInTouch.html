@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Get In Touch</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">        
+        <link href="style2.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!--back to top button-->
+        <button id="backToTop" title="Back to Top">↑</button>
+        <!-- top navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="homePage.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="getInTouch.html">Get In Touch</a></li>
+                        <li class="nav-item"><a class="nav-link" href="loginPage.html">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>        <!-- header section - banner + text-->
+        
+        <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+            <div class="col-lg-6">
+                <h2 class="text-center mb-4 my-5">Leave Me A Message:</h2>
+                <!-- contact Form -->
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <textarea class="form-control" id="email" rows="1" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" id="sendMessage">Submit</button>
+                </form>
+
+                <!--contacts section-->
+                <section>
+                    <h2 class="text-center mb-4 my-5">Or you can also contact me on:</h2>
+                    <div class="bullets">
+                        <ul>
+                            <li>Phone number: +359888888888</li>
+                            <li>Email Address: demoEmailAddress@email.com</li>
+                            <li>My work email: demoWorkEmail@work.com</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- check all messages section -->
+                <div class="wrapperCheckMessages">
+                    <h2 class="text-center mb-4">Check All Messages Here:</h2>
+                    <a class="btn btn-primary w-100" id="allMessages"href="allMessages.html" role="button">All Messages</a>              
+                </div>
+            </div>
+        </div>
+
+        <!-- footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Emiliya Stoyanova</p></div>
+        </footer>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="applications/getMessages.js"></script>
+        <script src="applications/backToTopButton.js"></script>
+        <!--<script src="applications/loadTemplates.js"></script>-->
+    </body>
+</html>

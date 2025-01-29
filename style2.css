@@ -1,0 +1,91 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-nav {
+  justify-content: center;
+  width: 100%;
+}
+.nav-item {
+  font-size: 20px;
+  padding-right: 4%;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.wrapperCheckMessages {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#allMessages{
+  color: white;
+}
+#introduction {
+text-align: center;
+font-size: 20px;
+}
+.bullets {
+  padding-top: 5%;
+  justify-items: center;
+  font-size: 18px;
+}
+#extendedBullets {
+padding-top: 5%;
+}
+.col-lg-6 a{
+  text-decoration: none;
+  color: black;
+}
+/* styles.css */
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+#backToTop:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  #backToTop {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      bottom: 15px;
+      right: 15px;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+#messageOptions {
+  padding-top: 1%;
+}
